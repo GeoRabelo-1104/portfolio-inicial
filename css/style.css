@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+.card-habilidade {
+    background-color: #F9FAFB;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid #D1D5DB;
+    
+    width: 210px;
+    height: 320px;
+    border-radius: 6px;
+    
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 12px;
+}
+  
+.card-habilidade .area-inferior-card {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  
+    text-align: center;
+  
+    border-top: 1px solid #D1D5DB;
+    padding-top: 12px;
+}
+*/
