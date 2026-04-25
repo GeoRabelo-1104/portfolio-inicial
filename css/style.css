@@ -31,6 +31,10 @@ header nav ul {
     gap: 20px;
 }
 
+main {
+    padding: 20px;
+}
+
 .logo-card {
     width: 160px;
 }
