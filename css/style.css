@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #2143da;
+    --secondary-color: #474747;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,12 +15,20 @@ body {
     color: #333;
 }
 
+body p {
+    line-height: 1.6;
+}
+
 header {
-    border: 1px solid red;
-    padding: 20px;
+    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 
 header nav a {
@@ -23,18 +36,86 @@ header nav a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-size: 18px;
 }
 
 header nav ul {
+    
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
+header span {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
 main {
-    padding: 20px;
+    padding: 0px 120px;
+}
+
+#sobre {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#sobre p {
+    margin-top: 20px;
+    line-height: 1.6;
+    max-width: 1200px;
+    font-size: 16px;
+}
+
+#sobre ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.sobre1 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sobre1 h2 {
+    font-size: 60px;
+    color: var(--primary-color);
+}
+
+.sobre2 ul li {
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+    
+}
+
+.textoSecundario {
+    font-size: 28px;
+    color: var(--secondary-color);
+    font-weight: 600;
 }
 
 .logo-card {
     width: 160px;
+}
+
+.foto-apresentacao {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
 }
